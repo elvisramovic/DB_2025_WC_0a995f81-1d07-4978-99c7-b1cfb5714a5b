@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Db.WordCounter.Common\Db.WordCounter.Common.csproj" />
+    <ProjectReference Include="..\Db.WordCounter.Domain\Db.WordCounter.Domain.csproj" />
+    <ProjectReference Include="..\Db.WordCounter.Infrastructure\Db.WordCounter.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

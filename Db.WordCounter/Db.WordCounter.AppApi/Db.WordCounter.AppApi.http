@@ -1,0 +1,6 @@
+@Db.WordCounter.AppApi_HostAddress = http://localhost:5250
+
+GET {{Db.WordCounter.AppApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

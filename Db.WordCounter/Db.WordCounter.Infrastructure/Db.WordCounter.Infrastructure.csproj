@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ReadData\DalModel\" />
+    <Folder Include="ReadData\HttpModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Db.WordCounter.Common\Db.WordCounter.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReadData\SystemIoModel\Io\RowData\Input\TextFile_900.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ReadData\SystemIoModel\Io\RowData\Input\TextFile_901.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ReadData\SystemIoModel\Io\RowData\Input\TextFile_902.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ReadData\SystemIoModel\Io\RowData\Input\TextFile_903.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ReadData\SystemIoModel\Io\RowData\Input\TextFile_904.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ReadData\SystemIoModel\Io\RowData\WhiteList\exclude.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
